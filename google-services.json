@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "130713579502",
+    "firebase_url": "https://dpm-fruna-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "dpm-fruna",
+    "storage_bucket": "dpm-fruna.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130713579502:android:b3d6d26e0eea7bf65ee8ff",
+        "android_client_info": {
+          "package_name": "com.example.dmp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9JILMrsU-NrTF8lUG6LQfHuYvD8OLsIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

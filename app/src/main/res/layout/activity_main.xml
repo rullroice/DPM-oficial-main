@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="?attr/colorSurface">
+
+        <!-- Icono del candado -->
+        <ImageView
+            android:id="@+id/imgCandado"
+            android:layout_width="232dp"
+            android:layout_height="258dp"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="Logo" />
+
+        <!-- Título con Material Design -->
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¡Bienvenido a DPM!"
+            android:textSize="30sp"
+            android:textColor="?attr/colorOnSurface"
+            android:layout_gravity="top|center_horizontal"
+            android:paddingBottom="50dp" />
+
+        <!-- Botón de "Ingresar" con Material Design -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnIngresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresar"
+            android:textSize="18sp"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_marginTop="20dp"
+            app:cornerRadius="8dp"
+            app:iconPadding="8dp" />
+
+        <!-- Botón de "Crear Sesión" con Material Design -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCrearSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar"
+            android:textSize="18sp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_marginTop="20dp"
+            app:cornerRadius="8dp"
+            app:iconPadding="8dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
